@@ -14,6 +14,8 @@ export interface SkillCategory {
   skills: string[];
 }
 
+export type BioParagraph = (string | { highlight: string })[];
+
 export interface Certification {
   name: string;
   issuer: string;

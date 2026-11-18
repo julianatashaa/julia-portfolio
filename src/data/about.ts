@@ -1,13 +1,21 @@
-import { Certification, EducationEntry, SkillCategory } from "@/types";
+import { BioParagraph, Certification, EducationEntry, SkillCategory } from "@/types";
 
-export const bio = `Graduating Software Engineering student at Universiti Malaysia Sabah (CGPA: 3.54, graduating
-November 2026) with industry experience in software development and IT support. I completed a
-6-month software development internship at Phi Software Sdn. Bhd., contributing to 160+ development
-tasks across eight internal and client web applications — including feature enhancements, API
-integrations, offline-first functionality, and dashboard development. I'm currently an IT Protégé at
-Labuan Shipyard & Engineering, building internal systems with Laravel and Smartsheet alongside
-day-to-day IT support. Proficient in JavaScript, Vue.js, Next.js, PHP, Laravel, SQL, Git, and Docker.
-Open to relocation within Malaysia and to full-time Software Developer / Software Engineer roles.`;
+/** Each paragraph is a list of segments; `{ highlight }` segments are emphasised. */
+export const bio: BioParagraph[] = [
+  [
+    "Graduating Software Engineering student at Universiti Malaysia Sabah (CGPA 3.54, graduating November 2026) with industry experience in software development and IT support.",
+  ],
+  [
+    "Completed a 6-month software development internship at Phi Software Sdn. Bhd., contributing to ",
+    { highlight: "160+ development tasks" },
+    " across eight internal and client web applications, including feature enhancements, API integrations, offline-first functionality and dashboard development. Currently an ",
+    { highlight: "IT Protégé at Labuan Shipyard & Engineering" },
+    ", building internal systems with Laravel and Smartsheet alongside day-to-day IT support.",
+  ],
+  [
+    "Open to full-time Software Developer / Software Engineer roles and to relocation within Malaysia.",
+  ],
+];
 
 export const education: EducationEntry[] = [
   {
