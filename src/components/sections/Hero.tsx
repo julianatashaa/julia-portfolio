@@ -133,7 +133,7 @@ export function Hero() {
             <div className="relative h-full w-full overflow-hidden rounded-full ring-4 ring-white dark:ring-primary-900 shadow-xl">
               {/* TODO: replace with your own photo at /public/images/profile.jpg */}
               <Image
-                src="/images/profile-placeholder.svg"
+                src="/images/pfp.jpeg"
                 alt={siteConfig.name}
                 fill
                 preload
