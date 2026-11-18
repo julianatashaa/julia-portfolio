@@ -5,7 +5,7 @@ export const projects: ProjectEntry[] = [
     title: "Ship Parts Tracking System @ LSE",
     description:
       "A tracking system built on Smartsheet to monitor ship parts across shipyard projects at Labuan Shipyard & Engineering. Currently in development.",
-    image: "/images/projects/lse-parts-tracking.svg",
+    image: "/images/projects/lse-parts-tracking.jpg",
     techStack: ["Smartsheet"],
     status: "In Progress",
     note: "Internal company system — not publicly available.",
@@ -14,7 +14,7 @@ export const projects: ProjectEntry[] = [
     title: "Project Cost Estimator @ LSE",
     description:
       "A Laravel web application to support project cost planning at Labuan Shipyard & Engineering. Currently in development.",
-    image: "/images/projects/lse-cost-estimator.svg",
+    image: "/images/projects/lse-cost-estimator.jpg",
     techStack: ["Laravel", "PHP"],
     status: "In Progress",
     note: "Internal company system — not publicly available.",
