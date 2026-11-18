@@ -13,7 +13,7 @@ export function Experience() {
           <SectionHeading
             eyebrow="Experience"
             title="Where I've Worked"
-            description="Hands-on experience delivering production features as part of a professional development team."
+            description="Industry experience in software development and IT support, from production web applications to internal business systems."
           />
         </AnimatedSection>
 

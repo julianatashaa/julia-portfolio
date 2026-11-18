@@ -2,6 +2,24 @@ import { ProjectEntry } from "@/types";
 
 export const projects: ProjectEntry[] = [
   {
+    title: "Ship Parts Tracking System @ LSE",
+    description:
+      "A tracking system built on Smartsheet to monitor ship parts across shipyard projects at Labuan Shipyard & Engineering. Currently in development.",
+    image: "/images/projects/lse-parts-tracking.svg",
+    techStack: ["Smartsheet"],
+    status: "In Progress",
+    note: "Internal company system — not publicly available.",
+  },
+  {
+    title: "Project Cost Estimator @ LSE",
+    description:
+      "A Laravel web application to support project cost planning at Labuan Shipyard & Engineering. Currently in development.",
+    image: "/images/projects/lse-cost-estimator.svg",
+    techStack: ["Laravel", "PHP"],
+    status: "In Progress",
+    note: "Internal company system — not publicly available.",
+  },
+  {
     title: "FlexiEarn: Part-Time Job Finder for Tertiary Students",
     description:
       "Final year capstone project — a full-stack platform connecting students with part-time employers. Delivered 8 core modules (auth, RBAC, job posting, application tracking, profile management) across 3 user roles, backed by a normalized MySQL schema with 10+ tables.",
@@ -22,6 +40,7 @@ export const projects: ProjectEntry[] = [
       "A web-based reservation and booking system automating campsite booking validation, user management, and database operations for site operators, with responsive interfaces spanning the full booking workflow.",
     image: "/images/projects/kokol-mamahill.svg",
     techStack: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
+    sourceUrl: "https://github.com/julianatashaa/Kokol-Mamahill-Campsite-Management",
   },
   {
     title: "Client Projects @ Phi Software",

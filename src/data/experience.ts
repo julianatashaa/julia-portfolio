@@ -2,11 +2,24 @@ import { ExperienceEntry } from "@/types";
 
 export const experience: ExperienceEntry[] = [
   {
-    company: "Phi Software Sdn. Bhd.",
-    logo: "/images/phi-software-logo.png",
+    company: "Labuan Shipyard & Engineering Sdn Bhd (LSE) · Contract",
+    role: "Protégé, Information Technology",
+    duration: "September 2026 – Present",
+    location: "Labuan, Malaysia · On-site",
+    technologies: ["Oracle Fusion Applications (OFA)", "Smartsheet", "Laravel"],
+    achievements: [
+      "Developing a ship parts tracking system on Smartsheet to monitor parts across shipyard projects (in development)",
+      "Building a project cost estimator web application with Laravel to support project cost planning (in development)",
+      "Provide day-to-day IT support to LSE staff, including software installation and setup on user PCs",
+      "Set up and manage Zoom meetings and meeting links for internal and external sessions",
+      "Troubleshoot network connectivity issues for users",
+    ],
+  },
+  {
+    company: "Phi Software Sdn. Bhd. (Phisoft)",
     role: "Software Developer Intern",
-    duration: "March 2026 – August 2026 (Expected)",
-    location: "Sabah, Malaysia",
+    duration: "March 2026 – August 2026",
+    location: "Kota Kinabalu, Sabah, Malaysia",
     technologies: [
       "JavaScript",
       "Vue.js",

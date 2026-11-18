@@ -14,7 +14,7 @@ export function Projects() {
           <SectionHeading
             eyebrow="Projects"
             title="Things I've Built"
-            description="A mix of academic and internship projects spanning web and mobile platforms."
+            description="A mix of workplace, internship and academic projects spanning web and mobile platforms."
           />
         </AnimatedSection>
 
@@ -30,6 +30,12 @@ export function Projects() {
                     sizes="(max-width: 640px) 100vw, 400px"
                     className="object-cover"
                   />
+                  {project.status && (
+                    <span className="absolute top-3 left-3 inline-flex items-center gap-1.5 rounded-full bg-amber-100 px-3 py-1 text-xs font-semibold text-amber-800 ring-1 ring-inset ring-amber-300 dark:bg-amber-500/20 dark:text-amber-200 dark:ring-amber-400/30">
+                      <span className="h-1.5 w-1.5 rounded-full bg-amber-500" />
+                      {project.status}
+                    </span>
+                  )}
                 </div>
 
                 <div className="flex flex-1 flex-col p-6">
@@ -71,6 +77,12 @@ export function Projects() {
                         </a>
                       )}
                     </div>
+                  )}
+
+                  {project.note && (
+                    <p className="mt-6 pt-4 border-t border-primary-100 dark:border-white/10 text-xs italic text-slate-500 dark:text-slate-400">
+                      {project.note}
+                    </p>
                   )}
                 </div>
               </div>

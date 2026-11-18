@@ -2,9 +2,9 @@ import { NavLink, SocialLink } from "@/types";
 
 export const siteConfig = {
   name: "Julia Natasha Jemuin",
-  title: "Software Engineering Graduate | Full-Stack Developer",
+  title: "Software Engineering Graduate (Nov 2026) | Software Developer",
   tagline:
-    "Final-year Software Engineering student passionate about building reliable, user-focused web and mobile applications — from offline-first PWAs to multilingual government portals.",
+    "Graduating Software Engineering student with industry experience in software development and IT support. Open to full-time Software Developer / Software Engineer roles.",
   email: "julianatashajemuin@gmail.com",
   phone: "012-823 9337",
   location: "Sabah, Malaysia",

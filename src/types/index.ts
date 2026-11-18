@@ -45,6 +45,10 @@ export interface ProjectEntry {
   liveUrl?: string;
   sourceUrl?: string;
   featured?: boolean;
+  /** Shown as a badge on the card, e.g. for work that is still being built. */
+  status?: "In Progress";
+  /** Note shown in place of links, e.g. when the code is company-owned. */
+  note?: string;
 }
 
 export interface LeadershipEntry {
